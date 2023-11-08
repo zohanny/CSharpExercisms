@@ -15,6 +15,7 @@ namespace trainingProject
             RemoteControlCar car = RemoteControlCar.Buy();
             car.BatteryDisplay();
             car.DistanceDisplay();
+            // hello
 
             for (int i=0; i<110; i++)
                 car.Drive();
