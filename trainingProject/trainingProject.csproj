@@ -46,6 +46,7 @@
     <Compile Include="Animal.cs" />
     <Compile Include="Annalyn.cs" />
     <Compile Include="AssemblyLine.cs" />
+    <Compile Include="BirdCount.cs" />
     <Compile Include="LogLine.cs" />
     <Compile Include="PhoneTuple.cs" />
     <Compile Include="RemoteControlCar.cs" />
