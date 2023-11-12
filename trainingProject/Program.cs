@@ -12,7 +12,12 @@ namespace trainingProject
         static void Main(string[] args)
         {
 
-            RemoteControlCar car = RemoteControlCar.Buy();
+
+
+            Console.WriteLine(Identifier.Clean("My/0Id"));
+
+            /*
+             * RemoteControlCar car = RemoteControlCar.Buy();
             car.BatteryDisplay();
             car.DistanceDisplay();
             // hello
@@ -22,7 +27,7 @@ namespace trainingProject
                 
             Console.WriteLine(car.BatteryDisplay());
             Console.WriteLine(car.DistanceDisplay());
-
+            */
             /*
             double res = AssemblyLine.WorkingItemsPerMinute(6);
             Console.WriteLine(res);
