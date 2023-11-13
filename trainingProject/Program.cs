@@ -12,7 +12,7 @@ namespace trainingProject
         static void Main(string[] args)
 
         {
-            Console.WriteLine(Appointment.AnniversaryDate());
+            Console.WriteLine(SavingsAccount.InterestRate(balance: -200.75m));
 
 
             /*
