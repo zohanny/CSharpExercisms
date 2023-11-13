@@ -10,10 +10,12 @@ namespace trainingProject
     {
 
         static void Main(string[] args)
+
         {
+            Console.WriteLine(Appointment.AnniversaryDate());
 
 
-
+            /*
             Console.WriteLine(Identifier.Clean("My/0Id"));
 
             /*
