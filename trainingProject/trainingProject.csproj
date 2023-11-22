@@ -56,6 +56,7 @@
     <Compile Include="Classes\RemoteControlCar.cs" />
     <Compile Include="Classes\Squeaky.cs" />
     <Compile Include="Classes\Vehicle.cs" />
+    <Compile Include="InternationalCallingConnoisseur.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Classes\Hyper-optimized Telemetry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
