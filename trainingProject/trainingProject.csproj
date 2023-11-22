@@ -44,19 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
-    <Compile Include="Annalyn.cs" />
-    <Compile Include="AssemblyLine.cs" />
-    <Compile Include="Beauty.cs" />
-    <Compile Include="BirdCount.cs" />
-    <Compile Include="Interests.cs" />
-    <Compile Include="LogLine.cs" />
-    <Compile Include="PhoneTuple.cs" />
-    <Compile Include="RemoteControlCar.cs" />
-    <Compile Include="Squeaky.cs" />
-    <Compile Include="Vehicle.cs" />
+    <Compile Include="Classes\Animal.cs" />
+    <Compile Include="Classes\Annalyn.cs" />
+    <Compile Include="Classes\AssemblyLine.cs" />
+    <Compile Include="Classes\Beauty.cs" />
+    <Compile Include="Classes\BirdCount.cs" />
+    <Compile Include="Classes\Interests.cs" />
+    <Compile Include="Classes\LogLine.cs" />
+    <Compile Include="Classes\NeedForSpeed.cs" />
+    <Compile Include="Classes\PhoneTuple.cs" />
+    <Compile Include="Classes\RemoteControlCar.cs" />
+    <Compile Include="Classes\Squeaky.cs" />
+    <Compile Include="Classes\Vehicle.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Classes\Hyper-optimized Telemetry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Wizards and Warriors.cs" />
+    <Compile Include="Classes\TracksOnTracksOnTracks.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

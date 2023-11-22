@@ -12,9 +12,62 @@ namespace trainingProject
         static void Main(string[] args)
 
         {
-            Console.WriteLine(SavingsAccount.InterestRate(balance: -200.75m));
+            var list = Languages.GetExistingLanguages();
 
 
+
+            Languages.ReverseList(list).ForEach(p => Console.WriteLine(p));
+
+           
+
+
+
+            /*var value = "helαα56lo- wo rld/0 e arredores";
+            Console.WriteLine(Identifier.Clean(value));
+
+
+
+            /*
+             * long value = 15;
+            Console.WriteLine(value);
+            //Console.WriteLine(ASCIIEncoding.Unicode.GetByteCount(value));
+            var a = TelemetryBuffer.ToBuffer(value);
+            //BirdCount = 0;
+            Console.WriteLine("Rhis is the byte array");
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.WriteLine(a[i]);
+            }
+
+            Console.WriteLine($"The nuber was: {TelemetryBuffer.FromBuffer(a)}");
+
+
+            /*
+            var wiz = new Wizard();
+
+            Console.WriteLine(wiz);
+
+            Console.WriteLine(wiz.Vulnerable());
+            wiz.PrepareSpell();
+            Console.WriteLine(wiz.Vulnerable());
+            */
+
+
+            /*int speed = 9;
+            int batteryDrain = 50;
+            var car = new RemoteControlCar(speed, batteryDrain);
+            car.Drive();
+            car.Drive();
+            car.Drive();
+            Console.WriteLine($"batt: {car.BatteryCharge}  // dist: {car.DistanceDriven()}");
+            */
+
+
+            /*Console.WriteLine(SavingsAccount.InterestRate(balance: 200.75m));
+            Console.WriteLine(SavingsAccount.Interest(balance: 200.75m));
+            Console.WriteLine(SavingsAccount.AnnualBalanceUpdate(balance: 200.75m));
+            Console.WriteLine(SavingsAccount.YearsBeforeDesiredBalance(balance: 200.75m, targetBalance: 220m));
+            */
             /*
             Console.WriteLine(Identifier.Clean("My/0Id"));
 

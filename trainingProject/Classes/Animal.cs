@@ -41,7 +41,6 @@ namespace trainingProject
     {
         public override void MakeAnimalSound()
         {
-            int myint = 10;
             Console.WriteLine("The cat makes Meow!");
             
         }

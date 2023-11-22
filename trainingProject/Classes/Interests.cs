@@ -12,7 +12,7 @@ namespace trainingProject
         {
             float interest;
 
-            if (balance<30 )
+            if (balance<0 )
                 interest = 3.213f;
             else if (balance < 1000)
                 interest = 0.5f;
@@ -25,18 +25,21 @@ namespace trainingProject
         }
 
         public static decimal Interest(decimal balance)
-        {
-            throw new NotImplementedException("Please implement the (static) SavingsAccount.Interest() method");
-        }
+            => (decimal) (InterestRate(balance)/100 * (float) balance);
+
 
         public static decimal AnnualBalanceUpdate(decimal balance)
-        {
-            throw new NotImplementedException("Please implement the (static) SavingsAccount.AnnualBalanceUpdate() method");
-        }
+            => balance + Interest(balance);
 
         public static int YearsBeforeDesiredBalance(decimal balance, decimal targetBalance)
         {
-            throw new NotImplementedException("Please implement the (static) SavingsAccount.YearsBeforeDesiredBalance() method");
+            int years = 0;
+            while (balance<=targetBalance && balance>=0)
+            {
+                balance = AnnualBalanceUpdate(balance);
+                years++;
+            }
+            return years;
         }
     }
 }

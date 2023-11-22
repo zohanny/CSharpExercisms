@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace trainingProject
 {
-    class RemoteControlCar
+    class RemoteControlC
     {
 
         int distance=0;
         int battery = 100;
 
-        public static RemoteControlCar Buy()
-          => new RemoteControlCar();
+        public RemoteControlC()
+        {
+        }
+
+        public static RemoteControlC Buy()
+          => new RemoteControlC();
 
 
         public string DistanceDisplay()
