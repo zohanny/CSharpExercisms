@@ -12,7 +12,10 @@ namespace trainingProject
         static void Main(string[] args)
 
         {
-            var list = Languages.GetExistingLanguages();
+            Console.WriteLine(Badge.Print(null, "Ernest Johnny Payne", "marketing"));
+
+
+            /*var list = Languages.GetExistingLanguages();
 
             string vegetable = null;
             
@@ -22,11 +25,8 @@ namespace trainingProject
             Console.WriteLine(vegetable ?? "banana");
 
 
-
             /*var value = "helαα56lo- wo rld/0 e arredores";
             Console.WriteLine(Identifier.Clean(value));
-
-
 
             /*
              * long value = 15;
