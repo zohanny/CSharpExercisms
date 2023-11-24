@@ -14,11 +14,12 @@ namespace trainingProject
         {
             var list = Languages.GetExistingLanguages();
 
+            string vegetable = null;
+            
 
+            //Languages.ReverseList(list).ForEach(p => Console.WriteLine(p));
 
-            Languages.ReverseList(list).ForEach(p => Console.WriteLine(p));
-
-            Console.WriteLine("Hello");
+            Console.WriteLine(vegetable ?? "banana");
 
 
 

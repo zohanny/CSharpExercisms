@@ -12,11 +12,12 @@ namespace trainingProject
             => new Dictionary<int, string>();
 
         public static Dictionary<int, string> GetExistingDictionary()
-            => new Dictionary<int, string> { 
-                    [1] = "United States of America",
-                    [55] = "Brazil",
-                    [91] = "India"
-                };
+            => new Dictionary<int, string>
+            {
+                [1] = "United States of America",
+                [55] = "Brazil",
+                [91] = "India"
+            };
 
         public static Dictionary<int, string> AddCountryToEmptyDictionary(int countryCode, string countryName)
              => new Dictionary<int, string> { [countryCode] = countryName };
@@ -30,7 +31,7 @@ namespace trainingProject
 
         public static string GetCountryNameFromDictionary(
             Dictionary<int, string> existingDictionary, int countryCode)
-                => existingDictionary.ContainsKey(countryCode)? existingDictionary[countryCode]:"" ;
+                => existingDictionary.ContainsKey(countryCode) ? existingDictionary[countryCode] : "";
 
         public static bool CheckCodeExists(Dictionary<int, string> existingDictionary, int countryCode)
             => existingDictionary.ContainsKey(countryCode);
@@ -53,7 +54,7 @@ namespace trainingProject
         public static string FindLongestCountryName(Dictionary<int, string> existingDictionary)
         {
             string longestCountry = "";
-            
+
             foreach (var country in existingDictionary)
             {
                 if (country.Value.Length > longestCountry.Length)
