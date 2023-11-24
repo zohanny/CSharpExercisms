@@ -12,7 +12,11 @@ namespace trainingProject
         static void Main(string[] args)
 
         {
-            Console.WriteLine(Badge.Print(null, "Ernest Johnny Payne", "marketing"));
+
+            Console.WriteLine(PlayAnalyzer.AnalyzeOnField(11));
+            Console.WriteLine(PlayAnalyzer.AnalyzeOffField("5 minutes to go!"));
+
+            /*Console.WriteLine(Badge.Print(null, "Ernest Johnny Payne", "marketing"));
 
 
             /*var list = Languages.GetExistingLanguages();
